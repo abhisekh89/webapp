@@ -80,7 +80,7 @@
     <hr>
 
     <footer>
-        <p>&copy; Company 2014</p>
+        <p>&Copyright reserved Cloud89;</p>
     </footer>
 </div> <!-- /container -->
 
