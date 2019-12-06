@@ -12,7 +12,7 @@ node{
         sh  script: "${mvnHome}/bin/mvn  clean package"
     }
     
-    stage('Deploy Dev'){
+    stage('Deploy Development'){
         echo "Deploy to dev - comming son..."
     }
     
