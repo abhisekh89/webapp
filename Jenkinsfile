@@ -4,7 +4,7 @@ node{
     
     stage('SCM Checkout'){
        git credentialsId: 'github', 
-	        url: 'https://github.com/javahometech/6pmwebapp', 
+	        url: 'https://github.com/abhisekh89/webapp.git', 
 	        branch: 'master'
     }
     
