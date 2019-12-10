@@ -1,0 +1,22 @@
+pipeline{
+    agent any
+    stages{
+        stage ('SCM Checkout') {
+            steps{
+                git 'https://github.com/abhisekh89/webapp.git'
+
+            }
+        }
+
+        stage ('maven build') {
+            steps{
+                script{
+                     def mvnHome = tool name: 'maven3', type: 'maven'
+                     sh script: "${mvnHome}/bin/mvn clean package"
+                }
+               
+            }
+        }
+    }
+
+}
