@@ -3,9 +3,7 @@ node{
     def mvnHome = tool name: 'maven3', type: 'maven'
     
     stage('SCM Checkout'){
-       git credentialsId: 'github', 
-	        url: 'https://github.com/abhisekh89/webapp.git', 
-	        branch: 'master'
+       git 'https://github.com/abhisekh89/webapp.git'
     }
     
     stage('Maven Build'){
