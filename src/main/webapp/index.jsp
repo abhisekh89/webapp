@@ -81,7 +81,7 @@
     <hr>
 
     <footer>
-        <p>Copy Reserved; Cloud89-v-1</p>
+        <p>Copy Reserved; Cloud89-v-2</p>
     </footer>
 </div> <!-- /container -->
 
